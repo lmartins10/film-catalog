@@ -8,7 +8,7 @@ import {
 } from '@nestjs/common'
 import { z } from 'zod'
 
-import { CreateResetTokenAdminUseCase } from '@/domain/admin-panel/application/use-cases/admins/create-reset-token'
+import { CreateResetTokenAdminUseCase } from '@/domain/application/use-cases/admins/create-reset-token'
 import { Public } from '@/infra/auth/public'
 import { SendMailProducerService } from '@/infra/email/jobs/send-email-queue/send-email-queue-producer.service'
 import { EnvService } from '@/infra/env/env.service'

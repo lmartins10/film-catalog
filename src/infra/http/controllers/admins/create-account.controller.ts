@@ -9,8 +9,8 @@ import {
 } from '@nestjs/common'
 import { z } from 'zod'
 
-import { AdminAlreadyExistsError } from '@/domain/admin-panel/application/use-cases/_errors/admin-already-exists-error'
-import { RegisterAdminUseCase } from '@/domain/admin-panel/application/use-cases/admins/register-admin'
+import { AdminAlreadyExistsError } from '@/domain/application/use-cases/_errors/admin-already-exists-error'
+import { RegisterAdminUseCase } from '@/domain/application/use-cases/admins/register-admin'
 
 import { ZodValidationPipe } from '../../pipes/zod-validation-pipe'
 

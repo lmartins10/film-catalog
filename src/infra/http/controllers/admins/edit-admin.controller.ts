@@ -8,7 +8,7 @@ import {
 } from '@nestjs/common'
 import { z } from 'zod'
 
-import { EditAdminUseCase } from '@/domain/admin-panel/application/use-cases/admins/edit-admin'
+import { EditAdminUseCase } from '@/domain/application/use-cases/admins/edit-admin'
 import { CurrentUser } from '@/infra/auth/current-user-decorator'
 import { UserPayload } from '@/infra/auth/jwt.strategy'
 

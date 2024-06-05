@@ -9,9 +9,9 @@ import {
 } from '@nestjs/common'
 import { z } from 'zod'
 
-import { ForbiddenError } from '@/domain/admin-panel/application/use-cases/_errors/forbidden-error'
-import { WrongCredentialError } from '@/domain/admin-panel/application/use-cases/_errors/wrong-credential-error'
-import { AuthenticateAdminUseCase } from '@/domain/admin-panel/application/use-cases/admins/authenticate-admin'
+import { ForbiddenError } from '@/domain/application/use-cases/_errors/forbidden-error'
+import { WrongCredentialError } from '@/domain/application/use-cases/_errors/wrong-credential-error'
+import { AuthenticateAdminUseCase } from '@/domain/application/use-cases/admins/authenticate-admin'
 import { Public } from '@/infra/auth/public'
 
 import { ZodValidationPipe } from '../../pipes/zod-validation-pipe'

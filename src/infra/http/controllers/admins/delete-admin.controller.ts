@@ -6,7 +6,7 @@ import {
   Param,
 } from '@nestjs/common'
 
-import { DeleteAdminUseCase } from '@/domain/admin-panel/application/use-cases/admins/delete-admin'
+import { DeleteAdminUseCase } from '@/domain/application/use-cases/admins/delete-admin'
 
 @Controller('/admins/:id')
 export class DeleteAdminController {

@@ -1,7 +1,7 @@
 import { BadRequestException, Controller, Get, Query } from '@nestjs/common'
 
 import { SortParams } from '@/core/repositories/sort-params'
-import { FetchRecentAdminsUseCase } from '@/domain/admin-panel/application/use-cases/admins/fetch-recent-admins'
+import { FetchRecentAdminsUseCase } from '@/domain/application/use-cases/admins/fetch-recent-admins'
 
 import { AdminPresenter } from '../../presenters/admin-presenter'
 import {
